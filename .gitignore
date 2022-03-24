@@ -1,0 +1,6 @@
+.cache/
+node_modules/
+build/
+src/mylib/
+
+package-lock.json

@@ -1,0 +1,14 @@
+interface mystruct {
+	void mystruct();
+
+	attribute long the_int;
+	attribute long the_long;
+};
+
+interface Binding {
+	void Binding();
+
+	long add(long a, long b);
+	long get_mystruct_value(mystruct ms);
+};
+

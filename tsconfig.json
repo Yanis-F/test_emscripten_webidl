@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "target": "es2020",
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "strict": false,
+    "allowJs": true,
+    "declaration": true,
+    "skipLibCheck": false,
+    "removeComments": false,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*", "node_modules/*"]
+    },
+    "outDir": "./build/"
+  },
+  "include": [ "src/**/*.ts" ]
+}
